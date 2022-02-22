@@ -49,3 +49,5 @@ Information provided by the Bidirectional People Counter may be applied in a num
 Limitations of our current prototype include that our prototype requires the room or area of interest to be fixed and that there is only one set entrance/exit that  people are able to use. As of right now, our prototype cannot sense and count traffic going through multiple entrances or exits. Future developments may tackle this limitation through possibly collecting and combining data gathered from multiple prototypes set at multiple entrances/exits and integrating such to work collectivelly and in sync with one another. It would similarly be interesting to further test different walking paces as well as account for cases in which a crowd of people may enter/exit at once, which we were not able to test explicitly due to time and resource constraints.
 
 Future applications may also implement the use of other alternative sensors like IR sensors, which would be interesting to compare to our usage of ultrasonic sensors.
+
+In summary, the prototype solved the original needs of the project and successfully passed testing with normal functionality.
