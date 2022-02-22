@@ -23,7 +23,9 @@ We include delays throughout our program to facilitate how often readings are ta
 # Testing Process:
 We were able to test our prototype in our classroom/lab environment and used a fixed distance of approximately 350-60 centimeters. Through simulating an average walking pace with minimized arm movement, we were able to yield accurate results. Each time we "entered" past the Bidirectional People Counter, the people count incremented by one and the LED blinked. Similarly, each time we "exited" past the prototype, the people count decremented and the LED blinked accordingly. When setting up this testing environment we ensured the initial distance measurements made by the two ultrasonic sensors were as balanced (close in value) as possible. 
 
-We encountered some issues with a few test trials. [INCLUDE FAILURES/AREAS OF WEAKNESS]
+As previously mentioned, we had to test different delay values and environment setups, manipulating the initial distance measurements, in order to find an ideal, working setup for our current prototype. We encountered some issues with a few test trials where the delay values in use were not high/low enough to make frequent enough measurements to sense and capture the passing of a person in both directions. We also experimented with different walking paces and found that delay needed to be adjusted to make more frequent measurements with a faster pace. 
+
+Overall, at a very basic level, the results yielded accurate people counts. 
 
 # Pictures and Videos:
 Our protoype in three views: 
@@ -42,5 +44,8 @@ Sample serial output with time stamps during another test:
 <img width="843" alt="Screen Shot 2022-02-17 at 4 18 00 PM" src="https://user-images.githubusercontent.com/59979632/155044191-ba3f3bd1-a6dc-49c2-afc8-3fbd4a254c10.png">
 
 # Possible Usage and Main Takeaways:
-Information provided by the Bidirectional People Counter may be applied in a number of different ways. [ADD MORE INFO HERE]  
-Future applications may implement the use of other alternative sensors like IR sensors.  
+Information provided by the Bidirectional People Counter may be applied in a number of different ways and within varying contexts. This may include accurately counting people passing by a door to measure and assess room/building capacity and understand building traffic patterns. We may expand this to larger projects to build smart home and building systems, or new approaches to security within such systems.
+
+Limitations of our current prototype include that our prototype requires the room or area of interest to be fixed and that there is only set entrance/exit people are able to use. As of now, our prototype cannot count traffic going through multiple entrances or exits. Future developments may tackle this limitation through collecting and combining data gathered from multiple prototypes set at multiple entrances/exits and integrating such to work collectivelly and in sync with one another.
+
+Future applications may also implement the use of other alternative sensors like IR sensors.
